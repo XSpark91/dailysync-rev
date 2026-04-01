@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     #  确定什么时间执行
-    - cron: "0 */6 * * *"
+    - cron: "0 */11 * * *"
   push:
     branches:
       - main
