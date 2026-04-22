@@ -3,8 +3,8 @@ name: Sync Garmin CN to Garmin Global
 on:
   workflow_dispatch:
   schedule:
-    #  背景时间9点、23点左右。默认是UTC 时间
-    - cron: "0 22,14 * * *"
+    #  背景时间9点、23点左右。默认是UTC 时间，原本是"0 0,14 * * *"
+    - cron: "0 0,14 * * *"
   push:
     branches:
       - main
